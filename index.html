@@ -48,21 +48,52 @@
 
         </div>
         <div class="images">
-            <img src="./images/1_small.png" alt="">
-            <img src="./images/2_small.png" alt="">
-            <img src="./images/3_small.png" alt="">
+            <img src="./images/1_big.png" alt="">
+            <img src="./images/2_big.png" alt="">
+            <img src="./images/3_big.png" alt="">
         </div>
 
-        <picture>
-            <source media="(min-width: 768px)" srcset="./images/2_big">
-            <img src="./images/2_big.png" alt="">
 
-            <source media="(min-width: 500px)" srcset="./images/2_medium">
-            <img src="./images/2_medium.png" alt="">
+        <section class="form">
+            <div class="container">
+                <div class="form-images">
+                    <div class="form-images-one"></div>
+                    <div class="form-images-two"></div>
+                </div>
 
-            <source media="(min-width: 320px)" srcset="./images/2_small">
-            <img src="./images/2_small.png" alt="">
-        </picture>
+
+                <div class="form-description">
+                    <h3 class="form-title">Играй и выигрывай!</h3>
+                    <p class="form__desc">
+                        Играй в <span class="blue">Cyberpunk 2077</span> и получи возможность выиграть консоль <span
+                            class="blue">Xbox Series X</span> или <span class="blue">Sony PlayStation 5!</span>
+                        Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены
+                        30 февраля.
+                        Удачи! ;)
+                    </p>
+                </div>
+
+                <form class="form-fields">
+                    <label for="text"></label>
+                    <input class="input" name="text" id="text" type="text" placeholder="Как тебя зовут?" required>
+
+                    <label for="email"></label>
+                    <input class="input" name="email" id="email" type="email" placeholder="Твой е-mail" required>
+
+                    <label class="download" for="download">Прикрепить скриншот</label>
+                    <input class="input-download" id="download" type="file">
+
+                    <button class="form__btn">Отправить</button>
+
+                    <label class="checkbox" for="checkbox">
+                        Согласен на обработку персональных данных
+                    </label>
+
+                    <input class="input-checkbox" id="checkbox" type="checkbox">
+
+                </form>
+            </div>
+        </section>
 
     </main>
 
