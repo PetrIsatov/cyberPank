@@ -668,12 +668,22 @@ body {
     gap: 32px;
   }
 
+  @media (min-width:1024px) {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
 }
 
 .display__icons {
   @media (min-width:780px) {
     display: flex;
     flex-direction: column;
+    gap: 25px;
+  }
+
+  @media (min-width:780px) {
+    flex-direction: row;
     gap: 25px;
   }
 }

@@ -691,11 +691,23 @@ body {
     gap: 32px;
   }
 }
+@media (min-width: 1024px) {
+  .display__wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
 
 @media (min-width: 780px) {
   .display__icons {
     display: flex;
     flex-direction: column;
+    gap: 25px;
+  }
+}
+@media (min-width: 780px) {
+  .display__icons {
+    flex-direction: row;
     gap: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
